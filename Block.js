@@ -8,6 +8,7 @@ class Block{
       this.body = Bodies.rectangle(x, y, width, height, options);
       this.width = width;
       this.height = height;
+      this.invisibility = 255;
       this.image = loadImage("images/block.jpg");
       World.add(world, this.body);
     }
