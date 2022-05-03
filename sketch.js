@@ -78,7 +78,7 @@ function draw() {
   ground.display();
  
   push();
-  textSize(10);
+  textSize(20);
   fill(0);
   text("Press Space to get a second Chance to Play!!",650 ,530);
   pop();
